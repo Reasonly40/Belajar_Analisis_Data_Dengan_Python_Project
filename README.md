@@ -13,6 +13,9 @@ Jika belum, silakan unduh dan instal **Python** dari [python.org](https://www.py
 
 `
 python --version
+`
+
+`
 pip --version
 `
 
@@ -35,6 +38,9 @@ Windows (PowerShell):
 
 `
 Set-ExecutionPolicy Unrestricted -Scope Process
+`
+
+`
 .\venv\Scripts\activate
 `
 
@@ -68,6 +74,9 @@ Pastikan Anda berada di direktori proyek (misalnya, dashboard/), lalu jalankan:
 
 `
 cd dashboard  # Masuk ke folder dashboard
+`
+
+`
 streamlit run dashboard.py  # Menjalankan dashboard
 `
 
@@ -75,6 +84,9 @@ Jika berhasil, terminal akan menampilkan pesan seperti berikut:
 
 `
 You can now view your Streamlit app in your browser.
+`
+
+`
 Local URL: http://localhost:8501
 `
 
@@ -108,6 +120,9 @@ Pastikan sudah mengaktifkan virtual environment sebelum menjalankan Streamlit:
 
 `
 .\venv\Scripts\activate  # Windows (PowerShell)
+`
+
+`
 source venv/bin/activate  # Mac/Linux
 `
 🔹 Nama Dataset Tidak Sesuai
