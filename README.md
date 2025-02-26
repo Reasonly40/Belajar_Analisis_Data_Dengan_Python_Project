@@ -19,7 +19,7 @@ python --version
 pip --version
 `
 
-Jika pip belum terinstal, Anda dapat menginstalnya dengan perintah berikut:
+Jika pip belum terinstal, dapat diinstall dengan perintah berikut:
 
 `
 python -m ensurepip --default-pip
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 `
 
 ## 📌 2. Menjalankan Streamlit Dashboard
-Pastikan Anda berada di direktori proyek (misalnya, dashboard/), lalu jalankan:
+Pastikan berada di direktori proyek (misalnya, dashboard/), lalu jalankan:
 
 `
 cd dashboard  # Masuk ke folder dashboard
@@ -93,11 +93,14 @@ Local URL: http://localhost:8501
 Buka http://localhost:8501 di browser untuk melihat dashboard.
 
 ## 📌 3. Mengunggah Dataset
-Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, Anda perlu mengunggah dataset.
+Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, perlu mengunggah dataset.
 
 Klik tombol Upload Dataset di halaman dashboard.
+
 Pilih file CSV yang akan dianalisis.
+
 Data akan diproses dan divisualisasikan dalam bentuk grafik.
+
 ## 📌 4. Troubleshooting
 Jika mengalami error, berikut beberapa solusi umum:
 
