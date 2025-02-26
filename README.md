@@ -32,9 +32,9 @@ Untuk menghindari konflik dependensi, gunakan virtual environment dengan perinta
 python -m venv venv  # Membuat virtual environment bernama 'venv'
 `
 
-Aktifkan virtual environment:
+Aktifkan virtual environment
 
-Windows (PowerShell):
+- Windows (PowerShell):
 
 `
 Set-ExecutionPolicy Unrestricted -Scope Process
@@ -44,7 +44,7 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 .\venv\Scripts\activate
 `
 
-Mac/Linux:
+- Mac/Linux:
 
 `
 source venv/bin/activate
@@ -125,5 +125,6 @@ Pastikan sudah mengaktifkan virtual environment sebelum menjalankan Streamlit:
 `
 source venv/bin/activate  # Mac/Linux
 `
+
 🔹 Nama Dataset Tidak Sesuai
 Pastikan file CSV yang digunakan bernama main_data.csv.
