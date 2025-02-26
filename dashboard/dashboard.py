@@ -67,6 +67,12 @@ if uploaded_file is not None:
         bin_labels = ["Sangat Rendah", "Rendah", "Sedang", "Cukup Tinggi", "Tinggi", "Sangat Tinggi"]
         all_df['cnt_bin'] = pd.cut(all_df['cnt'], bins=bin_edges, labels=bin_labels)
 
+        # Memfilter data untuk hanya menyertakan baris yang memiliki nilai kosong (NaN) di kolom hour
+        filtered_df = all_df[all_df['hour'].isna()]
+
+        # Melanjutkan analisis menggunakan filtered_df
+        filtered_df['cnt_bin'] = pd.cut(filtered_df['cnt'], bins=bin_edges, labels=bin_labels)
+
         # Plot Rata-rata Suhu
         fig, ax = plt.subplots(figsize=(8, 5))
         all_df.groupby('cnt_bin')['temp'].mean().plot(kind='bar', color='royalblue', alpha=0.8, ax=ax)
