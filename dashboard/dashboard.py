@@ -4,11 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Data
-@st.cache_data
-def load_data():
-    return pd.read_csv('main_data.csv')
-
-all_df = load_data()
+all_df = pd.read_csv('main_data.csv')
 
 # --- Judul Dashboard
 st.title("Bike Sharing Analysis Dashboard")
