@@ -20,7 +20,7 @@ Jika pip belum terinstal, Anda dapat menginstalnya dengan perintah berikut:
 `
 python -m ensurepip --default-pip
 `
-b. Buat Virtual Environment (Opsional, tetapi Direkomendasikan)
+### b. Buat Virtual Environment (Opsional, tetapi Direkomendasikan)
 Untuk menghindari konflik dependensi, gunakan virtual environment dengan perintah:
 
 `
@@ -37,7 +37,7 @@ Mac/Linux:
 `
 source venv/bin/activate
 `
-c. Instalasi Paket yang Dibutuhkan
+### c. Instalasi Paket yang Dibutuhkan
 Jalankan perintah berikut untuk menginstal Streamlit dan pustaka lainnya:
 `
 pip install streamlit pandas matplotlib seaborn
@@ -52,7 +52,7 @@ Jika ingin menginstal ulang semua dependensi di masa depan, cukup jalankan:
 `
 pip install -r requirements.txt
 `
-📌 2. Menjalankan Streamlit Dashboard
+## 📌 2. Menjalankan Streamlit Dashboard
 Pastikan Anda berada di direktori proyek (misalnya, dashboard/), lalu jalankan:
 
 `
@@ -67,13 +67,13 @@ Local URL: http://localhost:8501
 `
 Buka http://localhost:8501 di browser untuk melihat dashboard.
 
-📌 3. Mengunggah Dataset
+## 📌 3. Mengunggah Dataset
 Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, Anda perlu mengunggah dataset.
 
 Klik tombol Upload Dataset di halaman dashboard.
 Pilih file CSV yang akan dianalisis.
 Data akan diproses dan divisualisasikan dalam bentuk grafik.
-📌 4. Troubleshooting
+## 📌 4. Troubleshooting
 Jika mengalami error, berikut beberapa solusi umum:
 
 🔹 Error: Modul Tidak Ditemukan
