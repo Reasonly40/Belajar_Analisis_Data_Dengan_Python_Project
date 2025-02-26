@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Nama file yang diperbolehkan
-ALLOWED_FILENAME = "bike_sharing_data.csv"
+ALLOWED_FILENAME = "main_data.csv"
 
 # Load Data
 @st.cache_data
