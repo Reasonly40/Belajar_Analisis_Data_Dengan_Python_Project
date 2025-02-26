@@ -95,11 +95,11 @@ Buka http://localhost:8501 di browser untuk melihat dashboard.
 ## 📌 3. Mengunggah Dataset
 Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, perlu mengunggah dataset.
 
-Klik tombol Upload Dataset di halaman dashboard.
+1) Klik tombol Upload Dataset di halaman dashboard.
 
-Pilih file CSV yang akan dianalisis.
+2) Pilih file CSV yang akan dianalisis.
 
-Data akan diproses dan divisualisasikan dalam bentuk grafik.
+3) Data akan diproses dan divisualisasikan dalam bentuk grafik.
 
 ## 📌 4. Troubleshooting
 Jika mengalami error, berikut beberapa solusi umum:
