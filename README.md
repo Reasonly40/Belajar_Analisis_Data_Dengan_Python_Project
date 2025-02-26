@@ -1,15 +1,17 @@
-🚴‍♂️ Bike Sharing Analytical Data Project
-🚀 Panduan Menjalankan Streamlit Dashboard
-Dokumen ini berisi langkah-langkah untuk menginstal dependensi dan menjalankan Streamlit Dashboard untuk menganalisis data penyewaan sepeda.
+# 🚴‍♂️ Bike Sharing Analytical Data Project
 
-📌 1. Instalasi Dependensi
-a. Pastikan Python dan pip Sudah Terinstal
-Jika belum, silakan unduh dan instal Python dari python.org.
-pip (package manager Python) biasanya sudah termasuk dalam instalasi Python. Untuk memeriksa, jalankan:
+## 🚀 Panduan Menjalankan Streamlit Dashboard  
+Dokumen ini berisi langkah-langkah untuk menginstal dependensi dan menjalankan **Streamlit Dashboard** untuk menganalisis data penyewaan sepeda.  
 
-bash
-Copy
-Edit
+---
+
+## 📌 1. Instalasi Dependensi  
+
+### **a. Pastikan Python dan pip Sudah Terinstal**  
+Jika belum, silakan unduh dan instal **Python** dari [python.org](https://www.python.org/).  
+**pip** (package manager Python) biasanya sudah termasuk dalam instalasi Python. Untuk memeriksa, jalankan:  
+
+```bash
 python --version
 pip --version
 Jika pip belum terinstal, Anda dapat menginstalnya dengan perintah berikut:
@@ -75,11 +77,11 @@ Local URL: http://localhost:8501
 Buka http://localhost:8501 di browser untuk melihat dashboard.
 
 📌 3. Mengunggah Dataset
-Dashboard yang dijalankan di lokal tidak perlu mengunggah dataset, tapi untuk membuka dashboard melalui streamlit cloud perlu melakukan ini.
+Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, Anda perlu mengunggah dataset.
+
 Klik tombol Upload Dataset di halaman dashboard.
 Pilih file CSV yang akan dianalisis.
 Data akan diproses dan divisualisasikan dalam bentuk grafik.
-
 📌 4. Troubleshooting
 Jika mengalami error, berikut beberapa solusi umum:
 
