@@ -5,7 +5,11 @@ import seaborn as sns
 
 # Load Data
 @st.cache_data
-all_df = pd.read_csv("data/main_data.csv")
+try:
+    main_df = pd.read_csv("main_data.csv")
+except FileNotFoundError:
+    import os
+    st.error(f"File 'main_data.csv' tidak ditemukan di direktori: {os.getcwd()}")
 
 # --- Judul Dashboard
 st.title("Bike Sharing Analysis Dashboard")
