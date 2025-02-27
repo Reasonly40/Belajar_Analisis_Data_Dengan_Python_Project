@@ -2,12 +2,18 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
 # Load Data
-@st.cache_data
 def load_data():
-    return pd.read_csv('main_data.csv')
-
+    file_path = Path("main_data.csv")
+    
+    if file_path.exists():
+        return pd.read_csv(file_path)
+    else:
+        st.error(f"File '{file_path}' tidak ditemukan di direktori: {file_path.resolve().parent}")
+        return None
+        
 all_df = load_data()
 
 # --- Judul Dashboard
