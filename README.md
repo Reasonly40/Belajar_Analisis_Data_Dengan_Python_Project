@@ -92,16 +92,7 @@ Local URL: http://localhost:8501
 
 Buka http://localhost:8501 di browser untuk melihat dashboard.
 
-## 📌 3. Mengunggah Dataset
-Dashboard yang dijalankan secara lokal tidak perlu mengunggah dataset, tetapi jika dashboard dibuka melalui Streamlit Cloud, perlu mengunggah dataset.
-
-1) Klik tombol Upload Dataset di halaman dashboard.
-
-2) Pilih file CSV yang akan dianalisis.
-
-3) Data akan diproses dan divisualisasikan dalam bentuk grafik.
-
-## 📌 4. Troubleshooting
+## 📌 3. Troubleshooting
 Jika mengalami error, berikut beberapa solusi umum:
 
 🔹 Error: Modul Tidak Ditemukan
