@@ -20,7 +20,7 @@ all_df = load_data()
 
 # Cek apakah data berhasil dimuat sebelum digunakan
 if all_df is not None:
-    st.write(main_df.head()) 
+    st.write(all_df.head()) 
 
 # --- Judul Dashboard
 st.title("Bike Sharing Analysis Dashboard")
