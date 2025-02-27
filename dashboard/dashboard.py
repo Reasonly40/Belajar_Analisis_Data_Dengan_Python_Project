@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Load Data
 def load_data():
-    file_path = Path("main_data.csv")
+    file_path = Path("dashboard/main_data.csv")
     
     if file_path.exists():
         return pd.read_csv(file_path)
