@@ -5,11 +5,21 @@ import seaborn as sns
 
 # Load Data
 @st.cache_data
-try:
-    main_df = pd.read_csv("main_data.csv")
-except FileNotFoundError:
-    import os
-    st.error(f"File 'main_data.csv' tidak ditemukan di direktori: {os.getcwd()}")
+def load_data():
+    file_path = os.path.join(os.path.dirname(__file__), "main_data.csv")
+    try:
+        df = pd.read_csv(file_path)
+        return df
+    except FileNotFoundError:
+        st.error(f"File 'main_data.csv' tidak ditemukan di direktori: {file_path}")
+        return None
+
+# Memanggil fungsi load_data
+all_df = load_data()
+
+# Cek apakah data berhasil dimuat sebelum digunakan
+if all_df is not None:
+    st.write(main_df.head()) 
 
 # --- Judul Dashboard
 st.title("Bike Sharing Analysis Dashboard")
